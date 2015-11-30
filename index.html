@@ -1,0 +1,50 @@
+<html>
+<head>
+	<title>Space Invaders</title>
+	<link href="layout.css" rel="stylesheet" type="text/css"/>
+</head>
+<font face='arial'>
+<body>
+	<div id="header"><figure id="FloatFigure">
+		<img src="space-invaders.png" alt="space invaders">
+	</figure>	
+	</div>
+	<div id="rightArea" align='center'><p id="h1">Controls</p>
+		<figure id="ArrowFigure">
+			<img src="arrowkeys.jpg" alt="arrow keys">
+		</figure>
+		<p id="h2"> Move</p>
+		<figure id="SpaceFigure">
+			<img src="space.png" alt="space">
+		</figure>	
+		<p id="h2" style="color:red;"> Fire </p>
+	</div>
+	<div id="leftArea">
+		<p align='center'><b>Set Enemy Speed:</b><br></p>
+		<p style="margin-left:20px;">
+			<input type="radio" name="speed" id = "slow" value="slow" checked>Slow<br>
+			<input type="radio" name="speed" id = "medium" value="medium">Medium<br>
+			<input type="radio" name="speed" id = "fast" value="fast">Fast<br>
+		</p>
+	</div>
+	<div id="gameArea">
+		<canvas id="gameScreen">HTML5 Canvas not supported</canvas>
+	</div>
+	<div id="footer">
+		<p style="margin-left:40px;"><b>How to Play:</b><br></p>
+		<ul style="margin-left:10px;">
+			<li> Destroy all enemies to advance to the next level. </li>
+			<li> You lose health when you are hit by enemy fire. </li>
+			<li id="warning"> Warning: Enemies are stronger and do more damage on higher levels! </li>
+		</ul>
+		<footer style="margin-top:60px;margin-left:200px;">
+		<font size='2'>
+		Created by Tzuo Shuin Yew
+		</font>
+		</footer>
+	</div>
+	<script src="jquery.js"></script>
+	<script src="invaders.js"></script>
+</body>
+</font>
+</html>

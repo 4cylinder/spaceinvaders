@@ -1,0 +1,75 @@
+body, div{
+	padding: 0;
+	margin: 0;
+	border: solid 1px;
+	width: 1024px;
+	height: 768px;
+}
+#header{
+	width: 1022px;
+	background-color:#1e1e1e;
+	height: 75px;
+}
+#FloatFigure {
+  	margin-left: 375px;
+  	margin-top: 5px;
+  	margin-right: 20px;
+  	margin-bottom: 0px;
+} 
+#ArrowFigure {
+	float: left;
+  	margin-left: 27px;
+  	margin-top: 5px;
+  	margin-bottom: 10px;
+} 
+#SpaceFigure {
+	clear: both;
+  	margin-left: 2px;
+  	margin-top: 10px;
+  	margin-right: 0px;
+} 
+#p1 {
+  color: #24486C;
+  margin-top: 30px;
+  font-size: medium;
+}
+#rightArea {
+	float: right;
+	width: 188px;
+	height: 482px;
+}
+#leftArea {
+	float: left;
+	width: 188px;
+	height: 482px;
+}
+#h1 {
+  color: #24486C;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  font-size: xx-large;
+}
+#h2 {
+  color: #1e1e1e;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  margin-left: 10px;
+  font-size: large;
+}
+#gameArea {
+	width: 642px;
+	height: 482px;
+	float: left;
+}
+#footer {
+	width: 1022px;
+	float: left;
+	height: 205px;
+}
+#warning {
+  color: red;
+  font-family:arial;
+  margin-top: 0px;
+  font-size: medium;
+}
